@@ -17,6 +17,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //查找本地字体
+    for(NSString *fontfamilyname in [UIFont familyNames]){
+        NSLog(@"family:'%@'",fontfamilyname);
+        for(NSString *fontName in [UIFont fontNamesForFamilyName:fontfamilyname]){
+            NSLog(@"\tfont:'%@'",fontName);
+        }
+        NSLog(@"-------------");
+    }
+    
+    //FontAwesome
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 300, 400)];
+    label.text = @"                                                  ";
+    label.numberOfLines = 0;
+    label.textColor=[UIColor blueColor];
+    UIFont *font = [UIFont fontWithName:@"FontAwesome" size:40];
+    if (font) {
+        label.font = font;
+        [self.view addSubview:label];
+    }
 }
 
 

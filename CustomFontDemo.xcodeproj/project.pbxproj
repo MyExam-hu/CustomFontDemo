@@ -13,6 +13,7 @@
 		B44ABFF61DCB104C008C6E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44ABFF41DCB104C008C6E93 /* Main.storyboard */; };
 		B44ABFF81DCB104C008C6E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44ABFF71DCB104C008C6E93 /* Assets.xcassets */; };
 		B44ABFFB1DCB104C008C6E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44ABFF91DCB104C008C6E93 /* LaunchScreen.storyboard */; };
+		B44AC0031DCB1080008C6E93 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B44AC0021DCB1080008C6E93 /* fontawesome-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B44ABFF71DCB104C008C6E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44ABFFA1DCB104C008C6E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44ABFFC1DCB104C008C6E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44AC0021DCB1080008C6E93 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B44ABFEA1DCB104C008C6E93 /* CustomFontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B44AC0021DCB1080008C6E93 /* fontawesome-webfont.ttf */,
 				B44ABFEE1DCB104C008C6E93 /* AppDelegate.h */,
 				B44ABFEF1DCB104C008C6E93 /* AppDelegate.m */,
 				B44ABFF11DCB104C008C6E93 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44ABFFB1DCB104C008C6E93 /* LaunchScreen.storyboard in Resources */,
+				B44AC0031DCB1080008C6E93 /* fontawesome-webfont.ttf in Resources */,
 				B44ABFF81DCB104C008C6E93 /* Assets.xcassets in Resources */,
 				B44ABFF61DCB104C008C6E93 /* Main.storyboard in Resources */,
 			);
